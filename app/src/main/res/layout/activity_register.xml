@@ -25,6 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_mail"
+        android:drawablePadding="15dp"
         android:ems="10"
         android:hint="Email"
         android:inputType="textPersonName"
@@ -44,6 +46,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_security"
+        android:drawablePadding="15dp"
         android:ems="10"
         android:hint="***********************"
         android:inputType="textPersonName"
@@ -63,6 +67,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_security"
+        android:drawablePadding="15dp"
         android:ems="10"
         android:hint="***********************"
         android:inputType="textPersonName"
@@ -100,7 +106,9 @@
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.357"></LinearLayout>
+        app:layout_constraintVertical_bias="0.357">
+
+    </LinearLayout>
 
     <EditText
         android:id="@+id/inputUsername"
@@ -110,6 +118,8 @@
         android:layout_marginTop="116dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="15dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
@@ -125,12 +135,13 @@
 
     <Button
         android:id="@+id/btnRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="176dp"
+        android:layout_height="51dp"
+        android:background="@drawable/btn_bg"
         android:text="Register"
         app:layout_constraintEnd_toEndOf="@+id/inputConfirmPassword"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="@+id/inputConfirmPassword"
-        tools:layout_editor_absoluteY="599dp" />
+        tools:layout_editor_absoluteY="597dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
